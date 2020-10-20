@@ -1,0 +1,858 @@
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================
+
+<style>
+  html, body {
+    text-align: left;
+    font-size: 1em;
+    font-family: Courier, monospace;
+    height: 100%
+  }
+
+  html, body, img, form, textarea, input, fieldset, div, p, div, ul, li, ol, dl, dt, dd,
+  h1, h2, h3, h4, h5, h6, pre, code {
+    margin: 0;
+    padding: 0
+  }
+
+  ul, li {
+    list-style: none
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: normal;
+    font-family: inherit
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  *:active, *:focus {
+    outline: 0;
+    -moz-outline-style: none
+  }
+
+  h1, h2, h3, h4, h5, h6, h7 {
+    font-weight: normal;
+    font-size: 1em
+  }
+
+  .clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden
+  }
+
+  .wrap {
+    min-height: 100%;
+    padding: 0;
+    max-width: 620px;
+    margin: 0 auto;
+    width: 590px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -165px;
+    margin-left: -295px;
+  }
+
+  .wrap h1 {
+    font-size: 50px;
+    color: #849aae;
+    line-height: 50px;
+  }
+
+  .wrap p {
+    margin-top: 30px;
+    font-size: 20px;
+    opacity: 0.5;
+    word-break: break-all;
+    line-height: 150%
+  }
+
+  .wrap pre {
+    margin-top: 30px;
+    overflow-x: auto;
+    border: 1px solid #E5E5E5;
+    padding: 20px;
+    border-radius: 2px
+  }
+
+  .wrap .error-contnet {
+    font-size: 16px;
+    color: #849aae;
+    line-height: 16px;
+    margin: 31px 0 44px;
+  }
+
+  .wrap .error-btn {
+    width: 200px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #93a6b8;
+    border-radius: 2px;
+    text-align: center;
+    color: #849aae;
+    font-size: 16px;
+    display: block;
+  }
+
+  .wrap .icon {
+    background-image: url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png);
+    background-image: -webkit-image-set(url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite.png) 1x, url(https://s1.ljcdn.com/plat-pc/pc/asset/img/default/sprite@2x.png) 2x);
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 230px;
+    position: relative;
+    margin-right: 80px;
+    background-position: 0 0;
+  }
+
+  .wrap .icon.icon-404 {
+    background-position: 0 -255px;
+  }
+
+  .wrap .fl {
+    float: left
+  }
+</style>
+<div class="wrap">
+  <div class='icon icon-404 fl'></div>
+  <div class='fl'>
+    <h1>404未找到页面</h1>
+    <p class="error-contnet">
+      
+      您访问的页面不存在
+      
+    </p>
+    <a href="https://bj.lianjia.com/jingjiren/" class="error-btn">返回首页</a>
+  </div>
+</div>
+<script>
+  var time = 3
+  var timer = setInterval(function () {
+    time--
+    if (time <= 0) {
+      location.href = 'https://bj.lianjia.com/jingjiren/'
+      clearInterval(timer)
+    }
+//      window.document.getElementById('countDown').innerHTML = time + 's'
+  }, 1000)
+</script>
+============================================================

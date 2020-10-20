@@ -7,6 +7,21 @@ import scrapy
 
 
 class RealaustraliaItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    status=scrapy.Field()
+    price = scrapy.Field()
+    bedroom = scrapy.Field()
+    bathroom = scrapy.Field()
+    carpark = scrapy.Field()
+    area=scrapy.Field()
+    type=scrapy.Field()
+    address = scrapy.Field()
+    zipcode = scrapy.Field()
+    house_url = scrapy.Field()
+
+    agent_name = scrapy.Field()
+    agent_position = scrapy.Field()
+    agent_company = scrapy.Field()
+    agent_sale = scrapy.Field()
+    agent_phone = scrapy.Field()
+    agent_location = scrapy.Field()
+    agent_url = scrapy.Field()

@@ -7,12 +7,12 @@
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Lianjia_Beijing/run.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TEST.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TEST3.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Text1.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/.idea/Project3-RealAustralia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/items.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/middlewares.py" afterDir="false" />
@@ -20,10 +20,12 @@
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/settings.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/spiders/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/spiders/main_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia_20201017.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/run.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/scrapy.cfg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/TEST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/mitmproxy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/origin.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +45,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,7 +60,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602896124704</updated>
-      <workItem from="1602896126008" duration="598000" />
+      <workItem from="1602896126008" duration="600000" />
+      <workItem from="1602931166620" duration="608000" />
     </task>
     <servers />
   </component>
