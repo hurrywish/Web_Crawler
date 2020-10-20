@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe708fdf-b50f-43a1-9411-4ca1cd4d6f45" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Project2-Lianjia_Beijing.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lianjia_Beijing/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Text1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/.idea/Project3-RealAustralia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/items.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/middlewares.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/pipelines.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/spiders/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/RealAustralia/spiders/main_spider.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/run.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/RealAustralia/scrapy.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/TEST.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Project3-RealAustralia/geckodriver.log" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JupyterTrust" id="586c8a39-6d93-4439-ad46-d8998468ff16" />
+  <component name="ProjectId" id="1iz2VVyofvVvTvInROIF5g92NQs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe708fdf-b50f-43a1-9411-4ca1cd4d6f45" name="Default Changelist" comment="" />
+      <created>1602896124704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602896124704</updated>
+      <workItem from="1602896126008" duration="598000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
